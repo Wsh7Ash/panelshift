@@ -27,6 +27,12 @@ $ echo $?
 0
 ```
 
+## Continuous integration
+
+The committed workflow (`python -m compileall`, `unittest`, then the demo)
+completed successfully on GitHub Actions for the release commit `9d90974`:
+run **45336451246**, conclusion **success** (8 s, 2026-11-24).
+
 ## Demo gate
 
 ```text
