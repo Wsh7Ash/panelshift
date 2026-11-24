@@ -1,0 +1,22 @@
+{
+  "panel": {
+    "bus_amps": 200,
+    "voltage": 240,
+    "spaces": 40,
+    "planning_factor": 0.8
+  },
+  "circuits": [
+    {"id": "range", "name": "Range", "amps": 40, "poles": 2},
+    {"id": "dryer", "name": "Dryer", "amps": 30, "poles": 2},
+    {"id": "ev", "name": "EV charger", "amps": 16, "continuous": true, "poles": 2},
+    {"id": "kitchen-a", "name": "Kitchen receptacles A", "amps": 20, "group": "kitchen-mwbc", "poles": 1},
+    {"id": "kitchen-b", "name": "Kitchen receptacles B", "amps": 20, "group": "kitchen-mwbc", "poles": 1},
+    {"id": "lights", "name": "Lighting", "amps": 15, "poles": 1},
+    {"id": "bedrooms", "name": "Bedroom receptacles", "amps": 15, "poles": 1},
+    {"id": "bath", "name": "Bathroom", "amps": 20, "poles": 1},
+    {"id": "dishwasher", "name": "Dishwasher", "amps": 12, "continuous": true, "poles": 1},
+    {"id": "fridge", "name": "Refrigerator", "amps": 8, "poles": 1},
+    {"id": "washer", "name": "Washer", "amps": 12, "poles": 1},
+    {"id": "microwave", "name": "Microwave", "amps": 14, "poles": 1}
+  ]
+}

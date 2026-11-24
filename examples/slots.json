@@ -1,0 +1,21 @@
+{
+  "panel": {
+    "bus_amps": 200,
+    "voltage": 240,
+    "spaces": 8,
+    "planning_factor": 0.8
+  },
+  "circuits": [
+    {"id": "a", "amps": 15, "poles": 1},
+    {"id": "b", "amps": 15, "poles": 1},
+    {"id": "c", "amps": 15, "poles": 1},
+    {"id": "d", "amps": 15, "poles": 1},
+    {"id": "e", "amps": 15, "poles": 1},
+    {"id": "f", "amps": 15, "poles": 1},
+    {"id": "g", "amps": 15, "poles": 1},
+    {"id": "h", "amps": 15, "poles": 1},
+    {"id": "i", "amps": 15, "poles": 1},
+    {"id": "j", "amps": 15, "poles": 1},
+    {"id": "k", "amps": 15, "poles": 1}
+  ]
+}

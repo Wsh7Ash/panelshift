@@ -1,0 +1,14 @@
+{
+  "panel": {
+    "bus_amps": 60,
+    "voltage": 240,
+    "spaces": 12,
+    "planning_factor": 0.8
+  },
+  "circuits": [
+    {"id": "range", "name": "Range", "amps": 40, "poles": 2},
+    {"id": "dryer", "name": "Dryer", "amps": 30, "poles": 2},
+    {"id": "ev", "name": "EV charger", "amps": 40, "continuous": true, "poles": 2},
+    {"id": "shop", "name": "Shop subpanel", "amps": 50, "poles": 2}
+  ]
+}
